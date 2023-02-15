@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lite</title>
+        <!-- <link rel="stylesheet" href="CV.css"> -->
+        <style>
+            h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+#position {
+    font-size: 18px;
+}
+
+.summary {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h2 {
+    color: #2F5A78;
+    font-size: 20px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #2F5A78;
+}
+
+body {
+    font-family: Cursive;
+    margin-top: 100px;
+}
+
+#position {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    background-color: #eeeeee;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#copyright {
+    text-align: center;
+}
+
+section, footer {
+    padding: 2px 10px;
+}
+
+ul {
+    margin: 0px;
+}
+
+li b {
+    color: #2F5A78;
+}
+
+li {
+    margin-bottom: 5px;
+} 
+
+footer a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #e99f4b;
+    text-decoration: underline;
+} 
+
+table { 
+    border-collapse: collapse; 
+} 
+
+td, th { 
+    border:1px solid #000000; 
+    padding: 5px;
+} 
+
+th { 
+    background-color: #2F5A78; 
+    color: #FFFFFF;
+}
+
+input[type='text'], input[type='email'] {
+    border: 1px solid #2F5A78;
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    border: 1px solid #2F5A78;
+    width: 203px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    font-weight: bold;
+    color: #2F5A78;
+}
+
+input[type='submit'] {
+    background-color: #2F5A78;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 15px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 7px;
+} 
+
+.summary img {
+    float: right;
+    transition: transform 1s ease; 
+}
+
+.summary img:hover {
+    transform: scale(1.3);
+}
+
+        </style>
+    </head>
+    <body>
+        <header>
+        <h1>Amah Samuel Chibueze</h1>
+        <p id="position"><strong>🔸 </strong>Junior Website Developer<strong> 🔸</strong></p>
+        </header>
+        <section>
+        <h2>🔸 Summary</h2>
+        <p class="summary"><img src="https://cdn2.iconfinder.com/data/icons/avatars-99/62/avatar-370-456322-512.png" width="80px" alt="">
+        Hi, my name is Amah Samuel Chibueze, I am a web developer with few years of experience in the industry. I specialize in creating custom websites and web applications using a variety of programming languages and frameworks, including HTML, CSS, JavaScript, and Python.
+        I have a strong foundation in computer science principles, and I am always seeking to learn and improve my skills. I am highly adaptable and able to work on a wide range of projects, from small websites to large-scale web applications.
+        In my previous role as the cofounder of Lite Technology, I led the development of Lite gaming platform and lot of other related projects, and I  received certificates on most of my finished courses. I am confident in my ability to deliver high-quality, well-designed websites and web applications that exceed my clients' expectations.
+        When I'm not coding, you can find me researching about new developments in the tech industry and studying more on my acquired skills.
+        </p>
+        </section>
+        <section>
+        <h2>🔸 Experience</h2>
+        <ul id="experience">
+            <li>
+                <b>Junior Website Developer</b> | 2022 - Present
+            </li>
+            <li>
+                <b>Intern</b> | 2021 - 2022
+            </li>
+        </ul>
+        </section>
+        <section>
+        <h2>🔸 Skills</h2>
+        <table id="skills">
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+                <th>Rating</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Expert</td>
+                <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Intermediate</td>
+                <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Intermediate</td>
+                <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Entry</td>
+                <td>⭐</td>
+            </tr>
+        </table>
+        </section>
+        <section>
+            <h2>🔸 Contact Form</h2>
+            <form id="contact-form">
+                <label for="name">Name: </label><input placeholder="Name" id="name" type="text" />
+                <br>
+                <label for="email">Email: </label><input placeholder="Email" id="email" type="email" />
+                <br>
+                <textarea placeholder="Message"></textarea>
+                <br>
+                <input type="submit" value="SEND">
+            </form>
+        </section>
+        <footer>
+        <h2>🔸 Contacts</h2>
+        <ul id="contacts">
+        <li><a href="link1" target="https://wa.me/qr/JR6MVMVZHBSIL1">WhatsApp</a></li>
+        <li><a href="link2" target="_blank">Facebook</a></li>
+        <li><a href="link3" target="_blank">Twitter</a></li>
+        </ul>
+        <p id="copyright">Copyright &copy; <strong>ProjectX💻💡</strong></p>
+        </footer>
+    </body>
+</html>
