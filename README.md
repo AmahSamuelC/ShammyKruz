@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @ShammyKruz
+- 👋 Hi, I’m @AmahSamuelC.
 - 👀 I’m interested in coding.
 - 🌱 I’m currently learning python.
 - 💞️ I’m looking to collaborate on github and replit.
